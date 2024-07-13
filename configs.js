@@ -5,9 +5,9 @@ export const DB_CONFIG = {
 };
 
 export const BROWSER_CONFIG = {
-  headless: false,
+  headless: true,
   executablePath:
     '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-  devtools: true,
+  devtools: false,
   slowMo: 250, // slow down by 250ms
 };
