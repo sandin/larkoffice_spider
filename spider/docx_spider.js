@@ -11,7 +11,7 @@ export async function fetch_single_docx(page, url) {
       console.info = console.error;
       var result = {
         title: $($(".ace-line")[0]).text().trim(),
-        blocks_json: window.DATA.clientVars.data,
+        blocks_json: window.DATA.clientVars.data, // more data: https://bytedance.larkoffice.com/space/api/docx/pages/client_vars?xxxxx
         blocks: [],
       };
       var main_page_elem = $(".bear-web-x-container")[0];
